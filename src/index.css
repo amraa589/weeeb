@@ -1,0 +1,499 @@
+nav {
+  background-color: #5a678f;
+}
+.logo-img {
+  width: 10rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.margin-sl {
+  margin: 30px 0px;
+}
+
+.Top-slide {
+  height: 100%;
+}
+.Top-slide img {
+  height: 80vh;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.mySwiper2 {
+  width: 100%;
+}
+.story-size {
+  height: 300px;
+}
+.memory-slide {
+  height: 300px;
+}
+.mySwiper1 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.mySwiper2 .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.mySwiper1 .swiper-slide {
+  width: 25%;
+  height: 25%;
+  opacity: 0.4;
+}
+.mySwiper1 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mySwiper .swiper-slide {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.team-area {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.single-member {
+  box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px,
+    rgba(58, 78, 95, 0.05) 0 -5px 16px;
+}
+
+.single-member .team-heading {
+  background-image: url("http://i.stack.imgur.com/vhoa0.jpg");
+  background-size: cover;
+  height: 100px;
+}
+
+.single-member .member-img {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+.single-member .member-img img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  border: 5px solid black;
+  display: initial;
+}
+.member-data {
+  padding: 5%;
+  height: 200px;
+}
+.member-info h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.member-info h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.member-info p {
+  width: 90%;
+}
+.ins {
+  background-color: blue;
+}
+.card-mid {
+  margin-top: 10px;
+}
+
+.container_one {
+  background: #121213;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.loader_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.header {
+  position: absolute;
+  background: #121213;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+.golomt_logo {
+  width: 40%;
+  height: 60px;
+  padding-left: 30px;
+}
+.right-header a {
+  text-decoration: none;
+  font-family: consolas;
+  font-weight: 600;
+  font-size: larger;
+  color: #03e9f4;
+  padding: 6px 20px;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+.right-header a.active,
+.right-header a:hover {
+  border: #03e9f4 1px solid;
+  border-radius: 7%;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4,
+    0 0 20px #03e9f4;
+  background: #03e9f4;
+  color: #050801;
+}
+
+.right-header a.active:hover {
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 15px #03e9f4,
+    0 0 20px #03e9f4;
+}
+
+.motto {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.container_one .motto p {
+  text-transform: uppercase;
+  font-family: consolas;
+  letter-spacing: 2px;
+  color: #03e9f4;
+  padding: 20px 30px;
+  font-size: x-large;
+  font-weight: 600;
+  position: relative;
+}
+
+.loader {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #1a1a1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: #fff;
+  overflow: hidden;
+}
+.loader:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+.loader span {
+  position: absolute;
+  display: block;
+}
+
+.loader span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 2s linear infinite;
+  animation-delay: 0s;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.loader span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.loader span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: animate2 2s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.loader span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.loader h3 {
+  font-family: consolas;
+  color: #03e9f4;
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-size: xx-large;
+  transition: 0.5s;
+  border-right: 1px solid #03e9f4;
+  animation: typing 5s steps(18) infinite;
+}
+
+.loader:hover h3 {
+  color: #111;
+  border-right: 1px solid #111;
+}
+
+@keyframes typing {
+  0%,
+  90%,
+  100% {
+    width: 0px;
+  }
+  30%,
+  60% {
+    width: 197.89px;
+  }
+}
+.intro-header {
+  margin: 20px 0;
+}
+
+.intro-title h3 {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.intro-desc,
+.memory-desc p {
+  margin-top: 20px;
+  color: #2e3579;
+  font-size: 1.25em;
+  font-family: consolas;
+}
+.intro-header h3 {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.card-title {
+  color: #2e3075;
+  font-family: consolas;
+  font-size: 1.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.card-text {
+  font-family: consolas;
+  color: #525690;
+  font-size: 1.125em;
+}
+.card-image {
+  /*Background image iin zurgiig tomosgoh code bicheh*/
+}
+.text-primary ins {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-size: 1.35em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #f9f9f9;
+  border-radius: 20%;
+}
+.intro-intro .card {
+  border-radius: 20px;
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.intro-intro .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.mySwiper-video {
+  height: 200px;
+  padding: 30px;
+}
+.intro-video {
+  border-radius: 20px;
+}
+.mySwiper-video .swiper-slide {
+  height: 80%;
+}
+.swiper-wrapper {
+  width: 87%;
+}
+.memory-desc {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.text-center .intro-header h3 {
+  text-transform: uppercase;
+}
+/*Footer setup*/
+.footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  padding-left: 5%;
+}
+
+.footer_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.footer_three {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  padding-right: 5%;
+}
+
+.footer_one a {
+  text-decoration: none;
+  font-family: consolas;
+  font-size: medium;
+  color: antiquewhite;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.footer_two img {
+  width: 300px;
+  height: 45px;
+}
+.fab {
+  color: #fff;
+  margin: 10px;
+  size: 40px;
+}
+
+.video-container .video {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.video-container .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
